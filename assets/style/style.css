@@ -1,0 +1,147 @@
+.navbar{
+    border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+}
+.navbar-brand{
+    font-weight: 800;
+}
+.nav-container{
+    padding: 10px 20px;
+}
+.collapse ul{
+    border-right: 1px solid rgb(0, 0, 0, 0.5);
+    padding: 0 15px;
+}
+.collapse ul li a{
+    font-weight: 600;
+    color: black;
+}
+.div-profile{
+    padding-left: 20px;
+}
+
+/* profile */
+.picture span img {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+}
+.picture span {
+    margin-right: 20px;
+}
+.detail-p .login {
+   color: grey;
+   font-size: 16px;
+}
+
+.detail-p .name{
+    font-weight: 700;
+}
+.drop-btn, .drop-btn:hover, .drop-btn:focus, .drop-btn:active {
+    outline: none;
+    border: none;
+}
+.div-profile .dropdown .dropdown-menu{
+    width: 100%;
+}
+
+
+
+
+/* end nav */
+
+
+/* left section */
+
+.custom-select{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+
+.input-group input{
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.inc-dec{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.inc-dec .button-minus, 
+.inc-dec .button-plus {
+    background-color: transparent;
+    border: none !important;
+    width: 20%;
+    font-weight: 800;
+  
+}
+.inc-dec input.quantity-field{
+    width: 60%;
+    outline: none;
+}
+.input-group .currency{
+    width: 20%;
+}
+.input-group .price{
+    width: 80%;
+}
+
+
+/* right side */
+.card-nav .results p{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-nav .price-filter .custom-select{
+   width: 180px;
+}
+.card .card-body .card-h span{
+    color: grey;
+    font-size: 13px;
+}
+.card .card-body .card-h .card-title{
+    font-weight: 600;
+}
+.card .card-body .card-h{
+   border-bottom: 1px solid grey;
+}
+.sub-h .price-hour p{
+    font-weight: 600;
+}
+.sub-h .price-hour p span{
+    color: grey;
+}
+.sub-h .rating i{
+    color: rgb(255, 187, 1);
+}
+.sub-h .rating i svg{
+    margin-bottom: 5px;
+}
+.sub-h .rating p{
+    font-weight: 600;
+    text-align: right;
+}
+.sub-h .rating p span{
+    color: grey;
+} 
+.card-f .country p{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.card-f .country p img{
+    width: 17%;
+    height: auto;
+    vertical-align: middle;
+}
+.card-f .people p{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.card-f .people p i svg{
+    margin-bottom: 3px;
+}
